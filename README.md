@@ -1,11 +1,29 @@
 # k-series-config
 
-**K-시리즈 앱(KITWLSH) 공용 원격 설정 레포.** 각 앱이 실행 시 이 레포의 `family.json`을 읽어 '브랜드 & 자매앱' 카드를 **동적으로** 표시한다.
+**K-시리즈 앱(KITWLSH) 공용 자산 레포.** 두 가지를 호스팅한다.
+① 각 앱이 실행 시 읽는 자매앱 레지스트리 `family.json` ② 앱별 **개인정보 처리방침**(GitHub Pages).
 
 ```
-family.json          # 자매앱 레지스트리 (앱이 읽는 파일)
+family.json          # 자매앱 레지스트리 (앱이 런타임에 읽는 파일)
 icons/*.png          # 자매앱 아이콘 (384×384 PNG)
+index.html           # 방침 모음 랜딩 페이지
+privacy-*.html       # 앱별 개인정보 처리방침 (Play Console에 등록하는 URL)
 ```
+
+## 🔐 개인정보 처리방침 호스팅
+
+GitHub Pages(Settings → Pages → Deploy from a branch → `main` / root)로 공개한다.
+
+| 앱 | Play Console에 등록할 URL |
+|---|---|
+| KDailyUtil | `https://kitwlsh.github.io/k-series-config/privacy-kdailyutil.html` |
+| KLotto645 | `https://kitwlsh.github.io/k-series-config/privacy-klotto645.html` |
+| K장부 | `https://kitwlsh.github.io/k-series-config/privacy-kjangbu.html` |
+| (모음) | `https://kitwlsh.github.io/k-series-config/` |
+
+- **원본은 각 앱 저장소의 `doc/privacy-<앱>.html`**, 이 레포의 파일은 배포용 사본이다. 방침을 고치면 **양쪽을 함께 갱신**한다(수동 업로드만 하면 원본과 어긋난다 — 실제로 겪은 문제다).
+- 방침은 **앱마다 따로** 둔다. 앱이 쓰는 권한·전송 대상이 서로 달라 한 문서로 묶으면 사실과 어긋난다.
+- 방침 내용은 **매니페스트의 실제 권한과 일치**해야 한다. 권한을 추가·제거하면 방침도 같이 고칠 것.
 
 ## ⚠️ 규칙
 
