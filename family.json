@@ -49,13 +49,13 @@
     {
       "id": "com.kitwlshcom.kdalin",
       "name": "K달인",
-      "tagline": "우리말 맞춤법·띄어쓰기 교정 — 60초 달인 도전",
+      "tagline": "우리말 퀴즈 — 초성·뜻풀이·속담, 그리고 60초 달인 도전",
       "iconUrl": "https://raw.githubusercontent.com/kitwlsh/k-series-config/main/icons/kdalin.png",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.kitwlshcom.kdalin",
       "active": false,
       "comingSoon": true,
       "order": 4,
-      "_note": "2026-09-17 개발 착수(프로젝트 골격·아이콘·자매앱 레지스트리 완료). active=false로 카드 완전 숨김 → 출시 임박에 active=true, 출시 후 comingSoon=false. 🔴 예약 id(kfamily1~5)를 쓰지 않으므로 기존 3앱에서는 '설치됨 배지·직접 실행'이 동작하지 않는다(카드 노출·스토어 이동은 정상). 필요해지면 그때 3앱 <queries>에 한 줄씩 추가한다."
+      "_note": "2026-09-18 1.0 기능 완성(①초성 ②일반 ③달인 3단계 · Room · 동기화 · 광고 · 문항 로봇까지 끝에서 끝까지 동작 확인). 스토어 미출시라 active=false로 카드 완전 숨김 → 출시 임박에 active=true, 출시 후 comingSoon=false. 🔴 예약 id(kfamily1~5)를 쓰지 않으므로 기존 3앱에서는 '설치됨 배지·직접 실행'이 동작하지 않는다(카드 노출·스토어 이동은 정상). 필요해지면 그때 3앱 <queries>에 한 줄씩 추가한다."
     }
   ],
   "_reservedQueriesPackages": [
