@@ -19,6 +19,7 @@ GitHub Pages(Settings → Pages → Deploy from a branch → `main` / root)로 �
 | KDailyUtil | `https://kitwlsh.github.io/k-series-config/privacy-kdailyutil.html` |
 | KLotto645 | `https://kitwlsh.github.io/k-series-config/privacy-klotto645.html` |
 | K장부 | `https://kitwlsh.github.io/k-series-config/privacy-kjangbu.html` |
+| K달인 | `https://kitwlsh.github.io/k-series-config/privacy-kdalin.html` |
 | (모음) | `https://kitwlsh.github.io/k-series-config/` |
 
 - **원본은 각 앱 저장소의 `doc/privacy-<앱>.html`**, 이 레포의 파일은 배포용 사본이다. 방침을 고치면 **양쪽을 함께 갱신**한다(수동 업로드만 하면 원본과 어긋난다 — 실제로 겪은 문제다).
