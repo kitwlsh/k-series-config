@@ -53,9 +53,9 @@
       "iconUrl": "https://raw.githubusercontent.com/kitwlsh/k-series-config/main/icons/kdalin.png",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.kitwlshcom.kdalin",
       "active": true,
-      "comingSoon": true,
+      "comingSoon": false,
       "order": 4,
-      "_note": "2026-10-02 프로덕션 심사 제출 → active=true로 카드 노출 시작(comingSoon=true라 '출시 예정' 비활성 카드). 🔴 심사 승인되면 comingSoon=false로 바꿔야 '설치' 버튼이 된다 — 이 한 글자를 잊으면 영영 '출시 예정'으로 남는다. 🔴 예약 id(kfamily1~5)를 쓰지 않으므로 기존 3앱에서는 '설치됨 배지·직접 실행'이 동작하지 않는다(카드 노출·스토어 이동은 정상). 필요해지면 그때 3앱 <queries>에 한 줄씩 추가한다."
+      "_note": "2026-10-02 프로덕션 심사 제출 → active=true로 카드 노출 시작. 2026-10-07 승인·스토어 공개 확인 → comingSoon=false로 '설치' 버튼 전환. 🔴 예약 id(kfamily1~5)를 쓰지 않으므로 기존 3앱에서는 '설치됨 배지·직접 실행'이 동작하지 않는다(카드 노출·스토어 이동은 정상). 필요해지면 그때 3앱 <queries>에 한 줄씩 추가한다."
     }
   ],
   "_reservedQueriesPackages": [
