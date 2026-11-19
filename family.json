@@ -43,8 +43,8 @@
       "storeUrl": "https://play.google.com/store/apps/details?id=com.kitwlshcom.kunbok",
       "active": false,
       "comingSoon": true,
-      "order": 5,
-      "_note": "🔴 2026-09-15 후보에서 제외 — 사주·명리는 자격증·전문성 문제(KDalin/main/doc/03 결정 로그). 보류 상태이며 착수 계획이 없다. 항목을 지우지 않는 이유: 예약 id가 기존 3앱의 <queries>에 이미 박혀 있어 지워도 사라지지 않는다 — 기록으로 남긴다. 되살리려면 order를 다시 조정할 것."
+      "order": 99,
+      "_note": "🔴 2026-11-19 개발 안 함 확정(사용자) → order 99로 맨 뒤(K줄달음에 5번을 줌). 🔴 2026-09-15 후보에서 제외 — 사주·명리는 자격증·전문성 문제(KDalin/main/doc/03 결정 로그). 보류 상태이며 착수 계획이 없다. 항목을 지우지 않는 이유: 예약 id가 기존 3앱의 <queries>에 이미 박혀 있어 지워도 사라지지 않는다 — 기록으로 남긴다. 되살리려면 order를 다시 조정할 것."
     },
     {
       "id": "com.kitwlshcom.kdalin",
@@ -65,8 +65,8 @@
       "storeUrl": "https://play.google.com/store/apps/details?id=com.kitwlshcom.kjuldaleum",
       "active": true,
       "comingSoon": false,
-      "order": 6,
-      "_note": "2026-11-18 프로덕션 제출 → 2026-11-19 스토어 출시 확인, 바로 active=true·comingSoon=false. order 5는 보류 중인 K운복 자리라 6. 🔴 예약 id가 아니므로 다른 앱에서는 카드 노출·스토어 이동만 된다(K달인과 같다). 🔴 ads 등 최상위 비상 레버 키는 두지 않는다 — K줄달음 광고 레버는 이 블록의 ads 키(앱이 자기 블록만 읽는다)."
+      "order": 5,
+      "_note": "2026-11-18 프로덕션 제출 → 2026-11-19 스토어 출시 확인, 바로 active=true·comingSoon=false. order 5(K운복은 개발 안 함 → 99로 밀림). 🔴 예약 id가 아니므로 다른 앱에서는 카드 노출·스토어 이동만 된다(K달인과 같다). 🔴 ads 등 최상위 비상 레버 키는 두지 않는다 — K줄달음 광고 레버는 이 블록의 ads 키(앱이 자기 블록만 읽는다)."
     }
   ],
   "_reservedQueriesPackages": [
