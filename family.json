@@ -56,6 +56,17 @@
       "comingSoon": false,
       "order": 4,
       "_note": "2026-10-02 프로덕션 심사 제출 → active=true로 카드 노출 시작. 2026-10-07 승인·스토어 공개 확인 → comingSoon=false로 '설치' 버튼 전환. 🔴 예약 id(kfamily1~5)를 쓰지 않으므로 기존 3앱에서는 '설치됨 배지·직접 실행'이 동작하지 않는다(카드 노출·스토어 이동은 정상). 필요해지면 그때 3앱 <queries>에 한 줄씩 추가한다."
+    },
+    {
+      "id": "com.kitwlshcom.kjuldaleum",
+      "name": "K줄달음",
+      "tagline": "OX 퀴즈 러너 — 정답 갈래로 달려라, 3갈래·4갈래까지",
+      "iconUrl": "https://raw.githubusercontent.com/kitwlsh/k-series-config/main/icons/kjuldaleum.png",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.kitwlshcom.kjuldaleum",
+      "active": true,
+      "comingSoon": false,
+      "order": 6,
+      "_note": "2026-11-18 프로덕션 제출 → 2026-11-19 스토어 출시 확인, 바로 active=true·comingSoon=false. order 5는 보류 중인 K운복 자리라 6. 🔴 예약 id가 아니므로 다른 앱에서는 카드 노출·스토어 이동만 된다(K달인과 같다). 🔴 ads 등 최상위 비상 레버 키는 두지 않는다 — K줄달음 광고 레버는 이 블록의 ads 키(앱이 자기 블록만 읽는다)."
     }
   ],
   "_reservedQueriesPackages": [
